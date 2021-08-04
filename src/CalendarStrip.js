@@ -178,6 +178,7 @@ class CalendarStrip extends Component {
     }
 
     if (updateState) {
+      this.animations = [];
       this.setState({...startingDate, ...selectedDate, ...days });
     }
   }
